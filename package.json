@@ -1,0 +1,20 @@
+{
+  "name": "screenshotter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "pak": "electron-packager . Screenshotter --platform win32 --arch x64 --out pak/ --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "screenshot-desktop": "^1.12.7"
+  },
+  "devDependencies": {
+    "electron": "^18.0.4",
+    "electron-packager": "^15.4.0"
+  }
+}
